@@ -1,0 +1,16 @@
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:section title="Twitter">
+        <f:entry title="Consumer key" field="consumerKey">
+            <f:textbox/>
+        </f:entry>
+        <f:entry title="Consumer secret" field="consumerSecret">
+            <f:password/>
+        </f:entry>
+        <f:entry title="Access token" field="accessToken">
+            <f:textbox/>
+        </f:entry>
+        <f:entry title="Access token secret" field="accessTokenSecret">
+            <f:password/>
+        </f:entry>
+    </f:section>
+</j:jelly>
